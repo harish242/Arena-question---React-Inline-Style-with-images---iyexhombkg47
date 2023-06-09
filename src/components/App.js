@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div id="navbar">
       <div>NavBar</div>
-      <img src={pic} width="130px" height="100px" margin="10px" />
+      <img src={pic} style={{ width: '130px', height: '100px', margin: '10px' }} />
     </div>
   )
 }
